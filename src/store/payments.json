@@ -1,0 +1,23 @@
+[
+	{
+		"title": "PayPal",
+		"image": "img/paypal.png",
+		"slug": "paypal",
+		"altName": null,
+		"commision": 0.05
+	},
+	{
+		"title": "Credit Card",
+		"image": "img/visa-master.png",
+		"slug": "credit-card",
+		"altName": "Siq banka, a.s.",
+		"commision": 0.01
+	},
+	{
+		"title": "Balance",
+		"image": "img/balance.png",
+		"slug": "balance",
+		"altName": null,
+		"commision": 0
+	}
+]
