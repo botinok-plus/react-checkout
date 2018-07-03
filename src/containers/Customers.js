@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import Customer from '../components/Customer';
 
-import { openModal, selectCustomer, deleteCustomer } from '../store/actions';
+import { openModal, selectCustomer, deleteCustomer, selectPayment } from '../store/actions';
 
 import AddIcon from '@material-ui/icons/Add';
 import Button from '@material-ui/core/Button';
@@ -35,6 +35,10 @@ class Customers extends PureComponent {
 		const index = customers.findIndex(elem => elem._id === id);
 
 		this.props.dispatch(deleteCustomer(index));
+
+		if(id === this.props.selected) {
+			this.props.dispatch(selectPayment(null));
+		}
 	}
 
 	render() {
