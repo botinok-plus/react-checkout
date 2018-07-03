@@ -2,7 +2,7 @@
   "name": "checkout-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://botinok-plus.github.io/react-checkout/",
+  "homepage": "http://react-checkout.botinok.plus/",
   "dependencies": {
     "@material-ui/core": "^1.2.0",
     "@material-ui/icons": "^1.1.0",

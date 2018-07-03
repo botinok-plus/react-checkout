@@ -21,7 +21,7 @@ class PaymentSelection extends PureComponent {
 			<div>
 				<Typography variant="display1" gutterBottom>Payment Selection</Typography>
 				<div className="App-payments">
-					{ payments.map((payment, index) => <Payment selected={selected} key={ index } data={ payment } onSelect={ this.selectPayment } />) }
+					{ payments.map((payment, index) => <Payment selected={ selected } key={ index } data={ payment } onSelect={ this.selectPayment } />) }
 				</div>
 			</div>
 		);
